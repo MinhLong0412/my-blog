@@ -33,15 +33,17 @@ Blog này bao gồm các chủ đề:
 ### Chạy local
 
 ```bash
-# Clone repository
-git clone https://github.com/kaik/long-blog.git
-cd long-blog
+# Clone repository với submodules
+git clone --recursive https://github.com/MinhLong0412/my-blog.git
+cd my-blog
 
-# Clone theme (nếu chưa có)
+# Nếu đã clone rồi, initialize submodules
 git submodule update --init --recursive
 
 # Chạy development server
-hugo server -D
+./dev.sh
+# hoặc
+hugo server -D --config hugo.dev.toml
 ```
 
 Blog sẽ được phục vụ tại `http://localhost:1313`
