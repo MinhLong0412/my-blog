@@ -1,5 +1,5 @@
 
-baseURL = "https://github.com/MinhLong0412/my-blog/"
+baseURL = "https://minhlong0412.github.io/my-blog/"
 languageCode = "vi-vn"
 title = "Blog Lập Trình Mạng"
 theme = "gokarna"
