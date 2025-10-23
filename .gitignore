@@ -1,0 +1,26 @@
+# Hugo generated files
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Development config
+hugo.dev.toml
+
+# Node modules
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local development
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Log files
+*.log
